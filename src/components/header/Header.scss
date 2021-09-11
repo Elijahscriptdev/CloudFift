@@ -1,0 +1,63 @@
+@import url("../assets/fonts/stylesheet.css");
+
+.header__wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  max-width: 86%;
+  margin: 0px auto;
+  padding-top: 20px;
+  //   transform: translate(0%);
+
+  .logo-wrapper {
+    width: 20%;
+    ul {
+      li {
+        padding: 5px 0;
+      }
+    }
+  }
+
+  .nav-link {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center !important;
+
+    .nav-links {
+      display: flex;
+      flex-direction: row;
+
+      .nav-items {
+        font-family: "Graphik";
+        margin: 0 20px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 19px;
+        line-height: 150%;
+        color: #3f403f;
+        padding: 5px 0;
+      }
+
+      .auth-links {
+        font-family: "Graphik";
+        margin-left: 20px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 19px;
+        line-height: 150%;
+        color: #3f403f;
+        padding: 5px 0;
+      }
+
+      .login {
+        background: rgba(6, 148, 42, 0.2);
+        border-radius: 50px;
+        font-weight: 600;
+        color: #06942a;
+        padding: 5px 30px;
+      }
+    }
+  }
+}

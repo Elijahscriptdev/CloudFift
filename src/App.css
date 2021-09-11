@@ -1,3 +1,5 @@
+@import url("./components/assets/fonts/stylesheet.css");
+
 * {
   margin: 0;
   padding: 0;
@@ -7,3 +9,12 @@
 ul {
   list-style: none;
 }
+
+/* li {
+  font-family: "Graphik";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 150%;
+  color: #3f403f;
+} */

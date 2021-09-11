@@ -1,7 +1,14 @@
 .hero__wrapper {
-  background: #06942a0d;
-  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 81%);
-  width: 65%;
-  height: 980px;
-  border-radius: 30px;
+  position: relative;
+  .hero__container {
+    background: #06942a0d;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 81%);
+    width: 70%;
+    height: 980px;
+    border-radius: 30px;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
 }
+
