@@ -16,6 +16,8 @@
       li {
         padding: 5px 0;
         cursor: pointer;
+        transform: translate(0%);
+        z-index: 999;
       }
     }
   }
@@ -32,27 +34,31 @@
       flex-direction: row;
 
       .nav-items {
-        font-family: "Graphik";
-        margin: 0 20px;
+        font-family: var(--font-family-body);
+        margin: 0 .8rem;
         font-style: normal;
         font-weight: normal;
-        font-size: 19px;
+        font-size: 1rem;
         line-height: 150%;
         color: #3f403f;
         padding: 5px 0;
         cursor: pointer;
+        transform: translate(0%);
+        z-index: 999;
       }
 
       .auth-links {
-        font-family: "Graphik";
-        margin-left: 20px;
+        font-family: var(--font-family-body);
+        margin-left: 1rem;
         font-style: normal;
         font-weight: normal;
-        font-size: 19px;
+        font-size: 1rem;
         line-height: 150%;
         color: #3f403f;
         padding: 5px 0;
         cursor: pointer;
+        transform: translate(0%);
+        z-index: 999;
       }
 
       .login {

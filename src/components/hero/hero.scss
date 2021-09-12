@@ -5,7 +5,7 @@
     background: #06942a0d;
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 81%);
     width: 70%;
-    height: 980px;
+    height: 910px;
     border-radius: 30px;
     position: absolute;
     top: 0;
@@ -22,11 +22,11 @@
     transform: translate(0%);
 
     .hero__text {
-      width: 100%;
+      width: 80%;
       margin: auto;
 
       .hero__title {
-        font-family: "GT Walsheim Pro";
+        font-family: var(--font-family-title);
         font-style: normal;
         font-weight: bold;
         font-size: 2.8rem;
@@ -40,7 +40,7 @@
       }
 
       .hero__description {
-        font-family: "Graphik";
+        font-family: var(--font-family-body);
         font-style: normal;
         font-weight: normal;
         font-size: 1rem;
@@ -51,7 +51,7 @@
 
       .trusted__wrapper {
         .trusted__title {
-          font-family: "Graphik";
+          font-family: var(--font-family-body);
           font-style: normal;
           font-weight: 500;
           font-size: 0.86rem;
