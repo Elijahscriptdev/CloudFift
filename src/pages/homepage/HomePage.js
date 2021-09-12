@@ -3,6 +3,7 @@ import Categories from '../../components/categories/Categories'
 import Hero from '../../components/hero/Hero'
 import HowItWorks from '../../components/how-it-works/HowItWorks'
 import Jobs from '../../components/jobs/Jobs'
+import Network from '../../components/network/Network'
 import './Homepage.scss'
 
 const HomePage = () => {
@@ -12,6 +13,7 @@ const HomePage = () => {
             <Jobs />
             <HowItWorks />
             <Categories />
+            <Network />
         </div>
     )
 }
