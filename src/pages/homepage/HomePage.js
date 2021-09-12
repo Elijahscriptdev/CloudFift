@@ -1,4 +1,5 @@
 import React from 'react'
+import Categories from '../../components/categories/Categories'
 import Hero from '../../components/hero/Hero'
 import HowItWorks from '../../components/how-it-works/HowItWorks'
 import Jobs from '../../components/jobs/Jobs'
@@ -10,6 +11,7 @@ const HomePage = () => {
             <Hero />
             <Jobs />
             <HowItWorks />
+            <Categories />
         </div>
     )
 }
