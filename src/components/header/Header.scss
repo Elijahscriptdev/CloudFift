@@ -1,4 +1,4 @@
-@import url("../assets/fonts/stylesheet.css");
+@import url("../assets/fonts/graphik/stylesheet.css");
 
 .header__wrapper {
   display: flex;
@@ -6,14 +6,16 @@
   align-items: center;
   max-width: 86%;
   margin: 0px auto;
-  padding-top: 20px;
-  //   transform: translate(0%);
+  padding-top: 15px;
+  transform: translate(0%);
+  z-index: 999;
 
   .logo-wrapper {
     width: 20%;
     ul {
       li {
         padding: 5px 0;
+        cursor: pointer;
       }
     }
   }
@@ -38,6 +40,7 @@
         line-height: 150%;
         color: #3f403f;
         padding: 5px 0;
+        cursor: pointer;
       }
 
       .auth-links {
@@ -49,6 +52,7 @@
         line-height: 150%;
         color: #3f403f;
         padding: 5px 0;
+        cursor: pointer;
       }
 
       .login {
