@@ -8,10 +8,6 @@
   gap: 20px;
   padding: 50px 0 100px;
 
-  //   .footer__container {
-  //       width: 100%;
-  //   }
-
   .footer1 {
     width: 30%;
 
@@ -57,5 +53,27 @@
     img {
       width: 100%;
     }
+  }
+}
+
+@media screen and (max-width: 930px) {
+  /* styles */
+  .footer__wrapper {
+  max-width: 86%;
+  margin: 120px auto 0px;
+  border-top: 1px solid #e5e5e5;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 50px 0 100px;
+  }
+
+  .footer1,
+  .footer2,
+  .footer3,
+  .footer4,
+  .footer5 {
+    width: 100% !important;
   }
 }

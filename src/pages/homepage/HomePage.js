@@ -13,7 +13,7 @@ const HomePage = () => {
   return (
     <div className='Home__wrapper'>
       <Hero />
-      <Jobs />
+      {/* <Jobs /> */}
       <HowItWorks />
       <Categories />
       <Network />

@@ -57,3 +57,24 @@
     }
   }
 }
+
+@media screen and (max-width: 845px) {
+  /* styles */
+  .network__wrapper {
+    max-width: 100% !important;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 50px;
+    background: var(--background-color-cover);
+    padding: 50px 0;
+
+    .network__container {
+      max-width: 100%;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 30px;
+      padding: 0 20px;
+    }
+  }
+}

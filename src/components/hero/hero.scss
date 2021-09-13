@@ -92,3 +92,54 @@
     }
   }
 }
+
+@media screen and (max-width: 380px) {
+  /* styles */
+  .trusted__wrapper {
+    .trusted__title {
+      font-family: var(--font-family-body);
+      font-style: normal;
+      font-weight: 500;
+      font-size: 0.86rem;
+      line-height: 150%;
+      color: #3f403f;
+      margin: 2rem 0 1.8rem;
+    }
+
+    .trusted__images {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      gap: 15px;
+      width: 100%;
+
+      .Paystack,.Google,.Kpmg {
+        width: 100%;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 845px) {
+  /* styles */
+  .hero__wrapper {
+    .hero__container {
+      height: 670px;
+    }
+  }
+}
+
+@media screen and (max-width: 892px) {
+  /* styles */
+  .hero__wrapper {
+    .hero__info {
+      display: grid;
+      grid-template-columns: 1fr;
+      width: 100%;
+
+      .hero__image {
+        width: 100%;
+      }
+    }
+  }
+}
