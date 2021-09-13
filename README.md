@@ -26,8 +26,6 @@ https://www.figma.com/file/s3nZ9JdH3dV5wAQJmzmBih/?node-id=0%3A1
 
 ![homepage](https://res.cloudinary.com/elijjaaahhhh/image/upload/v1631522069/FireShot_Capture_317_-_Task_-_cloudfitjobtask.netlify.app_x1s8bx.png)
 
-![mobile](https://res.cloudinary.com/elijjaaahhhh/image/upload/v1631522166/FireShot_Capture_318_-_Task_-_localhost_jaypiz.png)
-
 ## Prerequisites
 
 - React
